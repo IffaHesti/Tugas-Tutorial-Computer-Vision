@@ -15,10 +15,10 @@ Cara Run Program <br>
    **pip install -r requirements.txt** <br>
    
 4. Jalankan script training.py untuk melatih model menggunakan dataset yang sudah disiapkan: <br>
-   **python training.py** <br>
+   **python training.py** 
    - Model hasil training (eigenface_model.joblib) dan label (labels.npy) akan disimpan ke folder models/. <br>
    
 5. Setelah training selesai, jalankan script testing.py untuk mendeteksi dan mengenali wajah secara real-time menggunakan webcam: <br>
-   **python testing.py** <br>
+   **python testing.py**
    - Pastikan webcam komputer aktif. <br>
    - Tekan tombol q untuk keluar dari program. <br>
