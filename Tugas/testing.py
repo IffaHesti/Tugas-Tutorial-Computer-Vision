@@ -93,21 +93,21 @@ def draw_result(image, scores, labels, coords):
         draw_text(result_image, label, score, pos=(x, y))
     return result_image
 
-# # Testing sample_image
-# sample_image = cv2.imread('images/Laura_Bush/1.jpg')
-# sample_image_gray = cv2.cvtColor(sample_image, cv2.COLOR_BGR2GRAY)
+# Testing sample_image
+sample_image = cv2.imread('images/Laura_Bush/1.jpg')
+sample_image_gray = cv2.cvtColor(sample_image, cv2.COLOR_BGR2GRAY)
 
-# # Prediksi
-# sample_scores, sample_labels, sample_faces = eigenface_prediction(sample_image_gray)
+# Prediksi
+sample_scores, sample_labels, sample_faces = eigenface_prediction(sample_image_gray)
 
-# # Result sample_image
-# result_image = draw_result(sample_image, sample_scores, sample_labels, sample_faces)
+# Result sample_image
+result_image = draw_result(sample_image, sample_scores, sample_labels, sample_faces)
 
-# # Konversi ke RGB dan menunjukkan hasil
-# result_image_rgb = cv2.cvtColor(result_image, cv2.COLOR_BGR2RGB)
-# plt.imshow(result_image_rgb)
-# plt.axis('off')
-# plt.show()
+# Konversi ke RGB dan menunjukkan hasil
+result_image_rgb = cv2.cvtColor(result_image, cv2.COLOR_BGR2RGB)
+plt.imshow(result_image_rgb)
+plt.axis('off')
+plt.show()
 
 # Uji Kamera Real-time
 cap = cv2.VideoCapture(0)  # Membuka webcam
