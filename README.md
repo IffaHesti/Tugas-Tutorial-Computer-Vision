@@ -1,7 +1,7 @@
 # Tugas-Tutorial-Computer-Vision
 
-Name  : Iffa Hesti Adlik Putri <br>
-NIM   : 23/514098/PA/21977 <br>
+Name &emsp;: Iffa Hesti Adlik Putri <br>
+NIM &emsp;&ensp;: 23/514098/PA/21977 <br>
 
 Cara Run Program <br>
 1. Siapkan 1 folder untuk menyimpan requirements.txt, images, training.py, dan testing.py <br>
